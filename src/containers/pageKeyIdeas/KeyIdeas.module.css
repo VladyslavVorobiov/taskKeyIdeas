@@ -1,0 +1,24 @@
+.KeyIdeas{
+    width: 100vw;
+    padding: 10vw 4vw;
+    box-sizing: border-box;
+    background-color: var(--page-background-color);
+}
+
+@media all and (min-width: 385px) and (max-width: 768px) {
+    .KeyIdeas{
+        padding: 15vw 14vw;
+    }
+}
+
+@media all and (min-width: 769px) and (min-width: 1679px) {
+    .KeyIdeas{
+        padding: 15vw 14vw;
+    }
+}
+
+@media all and (min-width: 1680px) {
+    .KeyIdeas{
+        padding: 7.6vw 0 0 14.5vw;
+    }
+}

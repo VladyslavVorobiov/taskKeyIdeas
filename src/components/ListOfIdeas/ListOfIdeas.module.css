@@ -1,0 +1,26 @@
+.ListOfIdeas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 5vw;
+}
+
+@media all and (min-width: 385px) and (max-width: 768px) {
+    .ListOfIdeas{
+        grid-gap: 0px;
+    }
+}
+
+@media all and (min-width: 769px) {
+    .ListOfIdeas{
+        grid-template-rows: 1fr;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 0px;
+        padding-left: 3.4vw;
+    }
+}
+@media all and (min-width: 1680px) {
+    .ListOfIdeas{
+        padding-left: 0;
+    }
+}
